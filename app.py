@@ -456,8 +456,8 @@ def main():
                 max_value=15.0,
                 value=3.0,
                 step=0.1,
-                help="Median income in $10,000 units (e.g., 3.0 = $30,000)",
-                key="medinc"
+                help="Median household income: 3 = $30k, 5 = $50k, 10 = $100k",
+                key="income"
             )
             
             house_age = st.slider(
@@ -503,7 +503,7 @@ def main():
                 max_value=35000,
                 value=1500,
                 step=100,
-                help="Total population in the block",
+                help="Number of residents in the neighborhood block",
                 key="pop"
             )
             
