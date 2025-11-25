@@ -576,9 +576,6 @@ def main():
             <div class="prediction-box">
                 <div class="prediction-label">💎 Estimated Property Value</div>
                 <div class="prediction-amount">${data['price']:,.0f}</div>
-                <div class="prediction-label" style="font-size: 0.85rem; margin-top: 1rem; opacity: 0.9;">
-                    Based on Random Forest ML Model (R² = 80.5%)
-                </div>
             </div>
             """, unsafe_allow_html=True)
             
